@@ -1,7 +1,5 @@
 ## Hi there 👋
-
-<!--
-**kjeldsol/kjeldsol** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+kjeldsol/kjeldsol** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 PongC by DeepSeekAI - Классическая игра Pong с использованием SDL2
