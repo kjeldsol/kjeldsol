@@ -1,0 +1,132 @@
+PongC by DeepSeekAI - Классическая игра Pong с использованием SDL2
+Написана ИИ DeepSeek на языке C. Использует библиотеку SDL2 для графики и ввода.
+Игра распространяется под лицензией GPL 2.0.
+Исходный код можно свободно использовать, модифицировать и распространять в соответствии с условиями лицензии.
+Лицензия: GPL 2.0 (https://www.gnu.org/licenses/old-licenses/gpl-2.0.ru.html)
+Библиотека SDL2: https://www.libsdl.org/
+Основное управление:
+Меню:
+
+1 — 1 игрок (против ИИ)
+
+2 — 2 игрока
+
+3 — 1 игрок (против ускоренного ИИ)
+
+ESC — Выход из игры
+
+Во время игры:
+
+W/S — Движение левой ракетки (игрок 1)
+
+↑/↓ — Движение правой ракетки (игрок 2, если режим 2 игрока)
+
+SPACE — Пауза/продолжить
+
+R — Рестарт матча
+
+M — Вернуться в меню
+
+F — Переключить полноэкранный режим
+
+Правила игры:
+Цель: Первым набрать 5 очков.
+
+Очко засчитывается, если мяч уходит за границу экрана:
+
+Слева → очко правому игроку (или ИИ)
+
+Справа → очко левому игроку
+
+При достижении счета 5-0 или 5-4 игра завершается (Game Over).
+
+Режимы игры:
+1 игрок (ИИ):
+
+Игра против компьютера (скорость ИИ: средняя).
+
+2 игрока:
+
+Локальный мультиплеер.
+
+1 игрок (Ускоренный ИИ):
+
+ИИ двигается быстрее (режим сложности повышен).
+
+Дополнительно:
+На экране Game Over используйте:
+
+R — Рестарт
+
+M — Выход в меню
+
+Размеры объектов и скорость мяча адаптируются под разрешение экрана.
+
+Удачи на поле!
+
+PongC by DeepSeekAI - Classic Pong game implementation using SDL2
+Written by DeepSeek AI in C. Uses SDL2 library for graphics and input handling.
+The game is distributed under the GPL 2.0 license.
+Source code can be freely used, modified and distributed under license terms.
+License: GPL 2.0 (https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+SDL2 Library: https://www.libsdl.org/
+Main control:
+Menu:
+
+1 — 1 player (against AI)
+
+2 — 2 players
+
+3 — 1 player (against accelerated AI)
+
+ESC — Exit the game
+
+During the game:
+
+W/S — Movement of the left racket (player 1)
+
+↑/↓ — Movement of the right racket (player 2, if the mode is 2 players)
+
+SPACE — Pause/continue
+
+R — Restart of the match
+
+M — Go back to the menu
+
+F — Switch to fullscreen mode
+
+Game rules:
+The goal is to score 5 points first.
+
+A point is awarded if the ball goes off the screen.:
+
+Left → point to the right player (or AI)
+
+Right → point to the left player
+
+When the score reaches 5-0 or 5-4, the game ends (Game Over).
+
+Game Modes:
+1 player (AI):
+
+Playing against a computer (AI speed: average).
+
+2 players:
+
+Local multiplayer.
+
+1 player (Accelerated AI):
+
+The AI moves faster (increased difficulty mode).
+
+Additionally:
+On the Game Over screen, use:
+
+R — Restart
+
+M — Exit to the menu
+
+The size of the objects and the speed of the ball adapt to the screen resolution.
+
+Good luck on the field!
+By Kjeldsol & DeepSeek, 2025
